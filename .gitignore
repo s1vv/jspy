@@ -3,7 +3,7 @@
 
 # Игнорировать каталог node_modules
 node_modules/
-buil/
+build/
 
 # Игнорировать все .tmp файлы в любых подкаталогах
 **/*.tmp
