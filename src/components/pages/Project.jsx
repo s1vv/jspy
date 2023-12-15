@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import projects from "./../data/projectList"
+import projects from "./../data/projectList";
 import BtnGitHub from "../btnGitHub/BtnGitHub";
 
 const Project = () => {
@@ -17,7 +17,7 @@ const Project = () => {
           <div className="project-details__desc">
               <p>Skills: {project.skills}</p>
           </div>
-            <BtnGitHub link="https://www.youtube.com/watch?v=Iz1NvqG7wTc&list=LL&index=2&t=5266s"/>
+            <BtnGitHub link={project.gitHubLink}/>
 
         </div>
       </div>

@@ -13,7 +13,8 @@ const Projects = () => {
                   key={project.slug} 
                   title={project.title} 
                   img={project.img}
-                  slug={project.slug} /> 
+                  slug={project.slug}
+                  link={project.gitHubLink} /> 
                })}
 
             </ul>

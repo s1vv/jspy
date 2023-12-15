@@ -12,15 +12,15 @@ const projects = {
     img: task,
     imgBig: taskBig,
     slug: 'js-tasks',
-    gitHubLink: 'https://github.com',
+    gitHubLink: 'https://github.com/s1vv/js-jest-tasks',
   },
   react: {
     title: 'React site',
-    skills: 'React, Node.js, Doker',
+    skills: 'React, Node.js',
     img: reactSite,
     imgBig: reactSiteBig,
     slug: 'react',
-    gitHubLink: 'https://github.com',
+    gitHubLink: 'https://github.com/s1vv/jspy',
   },
   'youtube-app': {
     title: 'Youtube downloader app',
@@ -28,7 +28,7 @@ const projects = {
     img: downloader,
     imgBig: downloaderBig,
     slug: 'youtube-app',
-    gitHubLink: 'https://github.com',
+    gitHubLink: 'https://github.com/s1vv/yotubeDownloader',
   },
 };
 

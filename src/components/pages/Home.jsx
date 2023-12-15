@@ -9,13 +9,11 @@ const Home = () => {
                 
                   <ul className="content-list">
                       <li className="content-list__item">
-                          <h2 className="title-2">Frontend</h2>
-                          <p>JavaScript, TypeScript, ReactJS, Angular, Redux, HTML, CSS, NPM, BootStrap, MaterialUI, Yarn, TailwindCSS, StyledComponents</p>
+                        <h2 className="title-2">Отблагодарить можно по ссылке ниже</h2>
+                        <a href="https://donate.qiwi.com/payin/jspy.top" target="_blank" className="btn">Донат</a>
+
                       </li>
-                      <li className="content-list__item">
-                          <h2 className="title-2">Backend</h2>
-                          <p>NodeJS, MySQL, MongoDB, PHP, Laravel</p>
-                      </li>
+
                   </ul>
 
           </div>

@@ -19,7 +19,7 @@ const Header = () => {
             надеюсь они помогут закрепить знания.<br />
             Задачи структурированы по темам и проходят проверку тестами Jest</p>
           </div>
-          <a href="#!" className="btn">Скачать tasks.zip</a>
+          <a href="https://github.com/s1vv/js-jest-tasks" className="btn">Репозиторий GitHub</a>
       
       </div>
     </header>
