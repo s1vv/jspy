@@ -1,7 +1,7 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import MainLayout from './layouts/MainLayout';
-import "./styles/main.css"
+import './styles/main.css';
 import Home from './components/pages/Home';
 import Projects from './components/pages/Projects';
 import Project from './components/pages/Project';

@@ -1,6 +1,6 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
-const Project = ({title, img, slug}) => {
+function Project({ title, img, slug }) {
   return (
     <li className="project">
       <Link to={slug}>
@@ -10,5 +10,5 @@ const Project = ({title, img, slug}) => {
     </li>
   );
 }
- 
+
 export default Project;
