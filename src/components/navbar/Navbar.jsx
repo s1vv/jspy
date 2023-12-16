@@ -11,8 +11,8 @@ function Navbar() {
       <div className="container">
         <div className="nav-row">
           <NavLink to="/" className="logo">
-            <strong>Freelacer</strong>
-            portfolio
+            <strong>JSPY</strong>
+            .top
           </NavLink>
           <NavLink
             className={({ isActive }) => (isActive ? activeLink : link)}
@@ -26,7 +26,7 @@ function Navbar() {
             className={({ isActive }) => (isActive ? activeLink : link)}
             to="projects"
           >
-            Мои проекты
+            Мой код
           </NavLink>
 
           <BtnDarkMode />
