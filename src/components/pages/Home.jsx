@@ -25,7 +25,7 @@ function Home() {
                 rel="noreferrer"
                 className="btn"
               >
-                <h2 className="title-2">Отблагодарить можно по ссылке</h2>
+                <h2 className="title-2">Отблагодарить</h2>
               </a>
 
             </li>
