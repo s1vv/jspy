@@ -9,14 +9,23 @@ function Home() {
 
           <ul className="content-list">
             <li className="content-list__item">
-              <h2 className="title-2">Отблагодарить можно по ссылке ниже</h2>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/WMJJioImKIg?si=_umIKOV9GVe6E9qs"
+                title="YouTube video player"
+                // eslint-disable-next-line react/no-unknown-property
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              />
               <a
                 href="https://donate.qiwi.com/payin/jspy.top"
                 target="_blank"
                 rel="noreferrer"
                 className="btn"
               >
-                Донат
+                <h2 className="title-2">Отблагодарить можно по ссылке</h2>
               </a>
 
             </li>
