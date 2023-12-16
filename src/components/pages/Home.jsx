@@ -10,8 +10,8 @@ function Home() {
           <ul className="content-list">
             <li className="content-list__item">
               <iframe
-                width="560"
-                height="315"
+                width="330"
+                height="200"
                 src="https://www.youtube.com/embed/WMJJioImKIg?si=_umIKOV9GVe6E9qs"
                 title="YouTube video player"
                 // eslint-disable-next-line react/no-unknown-property
