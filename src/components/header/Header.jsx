@@ -13,7 +13,7 @@ function Header() {
         <h1 className="header__title">
           <strong>
             Приветствую, меня зовут
-            <em>Вячеслав</em>
+            <em> Вячеслав</em>
           </strong>
           <br />
           изучаю JS и Python
