@@ -19,14 +19,17 @@ function Home() {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
               />
-              <a
-                href="https://donate.qiwi.com/payin/jspy.top"
-                target="_blank"
-                rel="noreferrer"
-                className="btn"
-              >
-                Отблагодарить
-              </a>
+              <div>
+
+                <a
+                  href="https://donate.qiwi.com/payin/jspy.top"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn"
+                >
+                  Отблагодарить
+                </a>
+              </div>
 
             </li>
 
