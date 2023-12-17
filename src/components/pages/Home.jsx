@@ -15,7 +15,7 @@ function Home() {
                 src="https://www.youtube.com/embed/WMJJioImKIg?si=_umIKOV9GVe6E9qs"
                 title="YouTube video player"
                 frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allow=""
                 allowFullScreen
               />
               <div>
