@@ -14,10 +14,9 @@ function Home() {
                 height="200"
                 src="https://www.youtube.com/embed/WMJJioImKIg?si=_umIKOV9GVe6E9qs"
                 title="YouTube video player"
-                // eslint-disable-next-line react/no-unknown-property
-                frameborder="0"
+                frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
+                allowFullScreen
               />
               <div>
 
