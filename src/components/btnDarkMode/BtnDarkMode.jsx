@@ -1,11 +1,9 @@
-import { useEffect, useRef } from 'react';
-import useLocalStorage from '../../utils/useLocalStorage';
-import detectDarkMode from '../../utils/detectDarkMode';
+import { useEffect, useRef, useState } from 'react';
 import sun from '../../img/icons/sun.svg';
 import moon from '../../img/icons/moon.svg';
 
 function BtnDarkMode() {
-  const [darkMode, setDarkMode] = useLocalStorage('darkMode', detectDarkMode);
+  const [darkMode, setDarkMode] = useState('light');
   const btnRef = useRef(null);
 
   useEffect(() => {
@@ -17,15 +15,6 @@ function BtnDarkMode() {
       btnRef.current.classList.remove('dark-mode-btn--active');
     }
   }, [darkMode]);
-
-  useEffect(() => {
-    window
-      .matchMedia('(prefers-color-scheme: dark)')
-      .addEventListener('change', (event) => {
-        const newColorScheme = event.matches ? 'dark' : 'light';
-        setDarkMode(newColorScheme);
-      });
-  }, [setDarkMode]);
 
   const toogleDarkMode = () => {
     setDarkMode((curVal) => (curVal === 'ligth' ? 'dark' : 'ligth'));
